@@ -69,19 +69,19 @@ const services = [
 
 const technologies = [
   {
-    name:"C++",
+    name: "C++",
     icon: C,
   },
   {
-    name:"Python",
+    name: "Python",
     icon: python,
   },
- 
+
   {
     name: "HTML 5",
     icon: html,
   },
-  
+
   {
     name: "CSS 3",
     icon: css,
@@ -103,7 +103,7 @@ const technologies = [
   //   icon: tailwind,
   // },
   {
-    name:"SQL",
+    name: "SQL",
     icon: sql,
   },
   {
@@ -298,7 +298,7 @@ const contact = [
   {
     title: "Github",
     icon: github,
-    source: "https://github.com/Amanguptaprog"
+    source: "https://github.com/Piyush-Aman"
   },
   {
     title: "Leetcode",
