@@ -37,7 +37,9 @@ import todo from "./todo.png";
 import poke from "./poke.jpg";
 import linkedin from "./linkedin.png";
 import leet from "./leet.png";
-import geeks from "./tech/geeks.png"
+import geeks from "./tech/geeks.png";
+import Tata_Elxsi from "./company/Tata_Elxsi.jpg";
+import c from "./tech/c.png";
 export {
   logo,
   backend,
@@ -78,5 +80,7 @@ export {
   todo,
   linkedin,
   leet,
-  geeks
+  geeks,
+  Tata_Elxsi,
+  c
 };

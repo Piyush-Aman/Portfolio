@@ -34,7 +34,8 @@ import {
   todo,
   github,
   linkedin,
-  leet
+  leet,
+  c
 } from "../assets";
 
 export const navLinks = [
@@ -70,7 +71,7 @@ const services = [
 const technologies = [
   {
     name: "C",
-    icon: C,
+    icon: c,
   },
   {
     name: "C++",
@@ -128,7 +129,7 @@ const experiences = [
   {
     title: "Software Engineer",
     company_name: "Tata Elxsi",
-    icon: iit,
+    icon: Tata_Elxsi,
     iconBg: "#383E56",
     date: "July 2023 - Present",
     points: [
