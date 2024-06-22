@@ -42,6 +42,11 @@ import Tata_Elxsi from "./company/Tata_Elxsi.jpg";
 import c from "./tech/c.png";
 import nit from "./company/nit.png";
 import gssc from "./company/gssc.jpg";
+import portfolio from "./tech/portfolio.png";
+import tic from "./tech/tic.webp";
+import power from "./tech/power.jpg";
+import dict from "./tech/dict.jpg";
+import face from "./tech/face.jpg";
 export {
   logo,
   backend,
@@ -86,5 +91,10 @@ export {
   Tata_Elxsi,
   c,
   nit,
-  gssc
+  gssc,
+  portfolio,
+  dict,
+  power,
+  face,
+  tic
 };

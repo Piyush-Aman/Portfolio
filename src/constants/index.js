@@ -39,7 +39,12 @@ import {
   Tata_Elxsi,
   c,
   nit,
-  gssc
+  gssc,
+  power,
+  dict,
+  face,
+  tic,
+  portfolio
 } from "../assets";
 
 export const navLinks = [
@@ -229,7 +234,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: news,
+    image: portfolio,
     source_code_link: "https://github.com/Piyush-Aman/Portfolio",
   },
   {
@@ -256,7 +261,7 @@ const projects = [
         color: "blue-text-gradient",
       },
     ],
-    image: yoga,
+    image: dict,
     source_code_link: "https://github.com/Piyush-Aman/Dictionary",
   },
   {
@@ -279,7 +284,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: poke,
+    image: tic,
     source_code_link: "https://github.com/Piyush-Aman/Tic-Tac-Toe",
   },
   {
@@ -301,7 +306,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: todo,
+    image: face,
     source_code_link: "",
   },
   {
@@ -327,8 +332,8 @@ const projects = [
         color: "blue-text-gradient",
       },
     ],
-    image: pintrest,
-    source_code_link: "https://github.com/Amanguptaprog/Pintrest-clone",
+    image: power,
+    source_code_link: "",
   }
 ];
 const contact = [
