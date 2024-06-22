@@ -35,6 +35,8 @@ import {
   github,
   linkedin,
   leet,
+  geeks,
+  Tata_Elxsi,
   c
 } from "../assets";
 
