@@ -47,8 +47,9 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-        I am Aman Kumar from Jammu, J&K.
-        I am currently in my final year pursuing Electronics and Communication at NIT Srinagar.
+        I am Aman Kumar from Patna, Bihar.
+        Currently, I am working as a Software Engineer in Tata Elxsi.
+        I Completed my Btech in Electronics and Communication From NIT Srinagar.
         I always had an interest in the IT sector so I keep learning and implementing new tech stacks.
         In my free time, I usually do problem-solving and play chess.
       </motion.p>
