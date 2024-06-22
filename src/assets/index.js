@@ -37,6 +37,7 @@ import todo from "./todo.png";
 import poke from "./poke.jpg";
 import linkedin from "./linkedin.png";
 import leet from "./leet.png";
+import geeks from "./tech/geeks.png"
 export {
   logo,
   backend,
@@ -76,5 +77,6 @@ export {
   yoga,
   todo,
   linkedin,
-  leet
+  leet,
+  geeks
 };

@@ -69,6 +69,10 @@ const services = [
 
 const technologies = [
   {
+    name: "C",
+    icon: C,
+  },
+  {
     name: "C++",
     icon: C,
   },
@@ -106,14 +110,14 @@ const technologies = [
     name: "SQL",
     icon: sql,
   },
-  {
-    name: "MongoDB",
-    icon: mongodb,
-  },
-  {
-    name: "Three JS",
-    icon: threejs,
-  },
+  // {
+  //   name: "MongoDB",
+  //   icon: mongodb,
+  // },
+  // {
+  //   name: "Three JS",
+  //   icon: threejs,
+  // },
   {
     name: "git",
     icon: git,
@@ -302,7 +306,7 @@ const contact = [
   },
   {
     title: "GeeksForGeeks",
-    icon: leet,
+    icon: geeks,
     source: "https://www.geeksforgeeks.org/user/piyushraj249/"
   },
 ];
