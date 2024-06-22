@@ -40,6 +40,8 @@ import leet from "./leet.png";
 import geeks from "./tech/geeks.png";
 import Tata_Elxsi from "./company/Tata_Elxsi.jpg";
 import c from "./tech/c.png";
+import nit from "./company/nit.png";
+import gssc from "./company/gssc.jpg";
 export {
   logo,
   backend,
@@ -82,5 +84,7 @@ export {
   leet,
   geeks,
   Tata_Elxsi,
-  c
+  c,
+  nit,
+  gssc
 };

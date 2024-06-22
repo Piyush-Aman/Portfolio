@@ -37,7 +37,9 @@ import {
   leet,
   geeks,
   Tata_Elxsi,
-  c
+  c,
+  nit,
+  gssc
 } from "../assets";
 
 export const navLinks = [
@@ -141,32 +143,31 @@ const experiences = [
       "In addition to my ongoing client project, I also dedicate time to working on a couple of internal projects while undergoing training.",
     ],
   },
-  // {
-  //   title: "React Native Developer",
-  //   company_name: "Tesla",
-  //   icon: tesla,
-  //   iconBg: "#E6DEDD",
-  //   date: "Jan 2021 - Feb 2022",
-  //   points: [
-  //     "Developing and maintaining web applications using React.js and other related technologies.",
-  //     "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-  //     "Implementing responsive design and ensuring cross-browser compatibility.",
-  //     "Participating in code reviews and providing constructive feedback to other developers.",
-  //   ],
-  // },
-  // {
-  //   title: "Web Developer",
-  //   company_name: "Shopify",
-  //   icon: shopify,
-  //   iconBg: "#383E56",
-  //   date: "Jan 2022 - Jan 2023",
-  //   points: [
-  //     "Developing and maintaining web applications using React.js and other related technologies.",
-  //     "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-  //     "Implementing responsive design and ensuring cross-browser compatibility.",
-  //     "Participating in code reviews and providing constructive feedback to other developers.",
-  //   ],
-  // },
+  {
+    title: " Internship Co-ordinator",
+    company_name: "NIT Srinagar",
+    icon: nit,
+    iconBg: "#E6DEDD",
+    date: "Sep 2021 - May 2022",
+    points: [
+      "Managed internship programs, coordinating between departments and interns.",
+      "Identified opportunities, screened candidates, and facilitated onboarding.",
+      "Supported interns throughout their tenure",
+    ],
+  },
+  {
+    title: "Open Source Contributor",
+    company_name: "Girls Script Summer of Code ",
+    icon: gssc,
+    iconBg: "#383E56",
+    date: "Jan 2022 - Jan 2023",
+    points: [
+      "Actively participated in open-source projects, collaborating with diverse teams.",
+      "Provided code, documentation, and support to enhance project functionality.",
+      "Engaged in discussions and code reviews to improve project outcomes.",
+      "Merged my Project.",
+    ],
+  },
   // {
   //   title: "Full stack Developer",
   //   company_name: "Meta",
@@ -211,85 +212,119 @@ const testimonials = [
 
 const projects = [
   {
-    name: "News Portal",
+    name: "Portfolio",
     description:
-      "A real-time web-based application that displays news and its categories, along with the source, date, and time.",
+      "Developed a responsive portfolio website showcasing project and Skills.Implemented contact forms and integrated social media links for enhanced connectivity",
     tags: [
       {
-        name: "HTML/CSS,JS",
+        name: "HTML/CSS",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "JS",
         color: "green-text-gradient",
       },
       {
-        name: "FastAPI",
+        name: "ReactJS",
         color: "pink-text-gradient",
       },
     ],
     image: news,
-    source_code_link: "https://github.com/Amanguptaprog/News-Project",
+    source_code_link: "https://github.com/Piyush-Aman/Portfolio",
   },
   {
-    name: "Yoga Site",
+    name: "Dictionary Application",
     description:
-      "Web application that enables users to register for yoga classes at three different levels and also lets you connect to other social media",
+      "Multilingual Support: Provides comprehensive dictionary functionality in 12 languages, catering to diverse user needs",
+    "Dark Mode Interface: Oers a visually appealing and user-friendly dark mode interface, enhancing usability especially in low-light environments.",
+    "Extensive Word Database: Includes an extensive database of words and their meanings, ensuring accurate and reliable translations across languages",
     tags: [
       {
-        name: "react",
+        name: "Html",
         color: "blue-text-gradient",
       },
       {
-        name: "scss",
+        name: "CSS",
         color: "pink-text-gradient",
+      },
+      {
+        name: "ReactJS",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Axios/Material UI",
+        color: "blue-text-gradient",
       },
     ],
     image: yoga,
-    source_code_link: "https://github.com/Amanguptaprog/Yoga-site",
+    source_code_link: "https://github.com/Piyush-Aman/Dictionary",
   },
   {
-    name: "Pokemon Kingdom",
+    name: "Tic-Tac-Toe",
     description:
-      "A frontend catalog application uses ”PokeAPI” to show trending Pokemon details and characteristics in cards.",
+      "HTML Structure: Structured the game layout using HTML to depict the game board and user interface components.",
+    " CSS Styling: Employed CSS for visual enhancements, including the board layout, X and O markers, and game controls.",
+    "Interactive Gameplay: Implemented JavaScript for game logic, enabling player moves, win detection,and tie conditions",
     tags: [
       {
-        name: "reactjs",
+        name: "HTML",
         color: "blue-text-gradient",
       },
       {
-        name: "css",
+        name: "CSS",
+        color: "green-text-gradient",
+      },
+      {
+        name: "JS",
         color: "pink-text-gradient",
       },
     ],
     image: poke,
-    source_code_link: "https://github.com/Amanguptaprog/Pokemon-Catalouge",
+    source_code_link: "https://github.com/Piyush-Aman/Tic-Tac-Toe",
   },
   {
-    name: "To-do List",
+    name: " TE_SWS_FACE",
     description:
-      "A simple To-do List using reactJS",
+      " Handling 9 Key Feature in ongoing project at TATA Elxsi for Renault-Nissan, undertaking the following tasks",
+    "Requirements Specification,High-Level Design, Low-Level Design,Coding, Static Analysis,Gap Analysis and Developer Testing",
     tags: [
       {
-        name: "reactjs",
+        name: "C",
         color: "blue-text-gradient",
+      },
+      {
+        name: "Requirement gathering",
+        color: "green-text-gradient",
+      },
+      {
+        name: "High Level / Low Level Design",
+        color: "pink-text-gradient",
       },
     ],
     image: todo,
-    source_code_link: "https://github.com/Amanguptaprog/ToDoList-",
+    source_code_link: "",
   },
   {
-    name: "Pintrest Clone",
+    name: "Power Window Implementation",
     description:
-      "A printrest clone allows user to login and upload pictures from their devices.",
+      " Executed a Power Window Implementation project in compliance with ASPICE standards, encompassing development phases up to testing utilizing gtest  ",
+    " With Different mode Auto/Manual and Managing Obstacles and Voltage drop in between",
     tags: [
       {
-        name: "reactjs",
+        name: "C",
         color: "blue-text-gradient",
       },
       {
-        name: "css",
+        name: "Requirement gathering",
+        color: "green-text-gradient",
+      },
+      {
+        name: "High Level / Low Level Design",
         color: "pink-text-gradient",
+      },
+      {
+        name: "C++",
+        color: "blue-text-gradient",
       },
     ],
     image: pintrest,
