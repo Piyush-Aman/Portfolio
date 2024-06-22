@@ -1,9 +1,9 @@
 import React, { useRef, useState } from "react";
 import { motion } from "framer-motion";
 import emailjs from "@emailjs/browser";
-import Tilt from "react-tilt";
+import { Tilt } from "react-tilt";
 
-import { contact} from "../constants";
+import { contact } from "../constants";
 import { SectionWrapper } from "../hoc";
 import { fadeIn, textVariant } from "../utils/motion";
 
@@ -27,18 +27,18 @@ const ServiceCard = ({ index, title, icon, source }) => (
           speed: 450,
         }}
         className='bg-tertiary rounded-[20px] py-5 px-12 min-h-[280px] flex justify-evenly items-center flex-col'
-      > 
+      >
         <div onClick={() => window.open(source, "_blank")}>
-        <img
-          src={icon}
-          alt='web-development'
-          className='w-16 h-16 object-contain'
-        />
+          <img
+            src={icon}
+            alt='web-development'
+            className='w-16 h-16 object-contain'
+          />
         </div>
         <div onClick={() => window.open(source, "_blank")}>
-        <h3 className='text-white text-[20px] font-bold text-center'>
-          {title}
-        </h3>
+          <h3 className='text-white text-[20px] font-bold text-center'>
+            {title}
+          </h3>
         </div>
       </div>
     </motion.div>
@@ -166,7 +166,7 @@ const Contact = () => {
       >
         <EarthCanvas />
       </motion.div>
-      
+
       <div className='mt-20 flex flex-wrap gap-10'>
         {contact.map((service, index) => (
           <ServiceCard key={service.title} index={index} {...service} />
