@@ -122,16 +122,16 @@ const technologies = [
 
 const experiences = [
   {
-    title: "Apprentice",
-    company_name: "IIT BHU",
+    title: "Software Engineer",
+    company_name: "Tata Elxsi",
     icon: iit,
     iconBg: "#383E56",
-    date: "December 20221 - March 2022",
+    date: "July 2023 - Present",
     points: [
-      "Tech Stack: Pytorch, Keras, and TensorFlow.",
-      "News Video Captioning- A ML model that shows video captions of the actions/events happening in the video.",
-      "Worked on the deep learning model that helped around 2k+ blind people to understand daily news with help of actions during my apprentice period.",
-      "Collaborate with fellow colleagues to manually label the dataset for training the model.",
+      "Lead the development efforts for a client project with Renault Nissan, managing 9 key features from requirements gathering to developer testing.",
+      "Spearheaded the creation of high-level and low-level designs for the assigned features, ensuring alignment with project objectives and client specifications.",
+      "Utilized Static Analysis techniques to enhance code quality and identify potential issues, contributing to the overall robustness of the project.",
+      "In addition to my ongoing client project, I also dedicate time to working on a couple of internal projects while undergoing training.",
     ],
   },
   // {
@@ -293,7 +293,7 @@ const contact = [
   {
     title: "Linkedin",
     icon: linkedin,
-    source: "https://www.linkedin.com/in/Aman-gupta-6a67061b9/"
+    source: "https://www.linkedin.com/in/aman-kumar-94bb6b1b5/"
   },
   {
     title: "Github",
@@ -301,9 +301,9 @@ const contact = [
     source: "https://github.com/Piyush-Aman"
   },
   {
-    title: "Leetcode",
+    title: "GeeksForGeeks",
     icon: leet,
-    source: "https://leetcode.com/kingsman_21/"
+    source: "https://www.geeksforgeeks.org/user/piyushraj249/"
   },
 ];
 
